@@ -1,0 +1,50 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "§cMade by Ultr4Anubis.",
+        "name": "§3Guardian §r- §a A Minecraft Bedrock Anti-cheat system",
+        "uuid": "c23c1974-b8ed-4dd2-8678-91fe5f809ee8",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            20,
+            30
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "26d2b1bf-a83b-41e5-b1ca-49f17a3c91ea",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "script",
+            "uuid": "77b6519e-c7a6-4f1d-864e-20a1c7cddda8",
+            "version": [
+                1,
+                0,
+                0
+            ],
+            "language": "javascript",
+            "entry": "scripts/Main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.6.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0-beta"
+        }
+    ]
+}
