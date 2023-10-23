@@ -1,1 +1,1 @@
-import "./extras/world_settings.js";
+import "./setup/initialization.js";
