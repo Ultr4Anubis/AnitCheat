@@ -2,7 +2,7 @@
     "format_version": 2,
     "header": {
         "description": "§cMade by Ultr4Anubis.",
-        "name": "§3Guardian §r- §a A Minecraft Bedrock Anti-cheat system",
+        "name": "§3Guardian §r- §a A Minecraft Bedrock utility system",
         "uuid": "c23c1974-b8ed-4dd2-8678-91fe5f809ee8",
         "version": [
             1,
@@ -40,7 +40,7 @@
     "dependencies": [
         {
             "module_name": "@minecraft/server",
-            "version": "1.6.0-beta"
+            "version": "1.7.0-beta"
         },
         {
             "module_name": "@minecraft/server-ui",
