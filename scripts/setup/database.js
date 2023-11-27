@@ -81,5 +81,3 @@ export const Database = function (name) {
         return this;
     };
 };
-
-export const bannedDatabase = new Database("banned");
